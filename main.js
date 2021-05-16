@@ -185,7 +185,7 @@ client.on("message", async message => {
                                                 .setAuthor(client.user.username, client.user.displayAvatarURL({ dynamic: true }))
                                                 .setColor(message.member.roles.highest.hexColor)
                                                 .setThumbnail(message.guild.iconURL({ dynamic: true }))
-                                                .setDescription(`:white_check_mark: **| Sending... | All Members: ${message.guild.members.cache.filter(m => m.presence.status === "dnd" || m.presence.status === "idle" || m.presence.status === "online" && !m.user.bot)}**`)
+                                                .setDescription(`:white_check_mark: **| Sending... | All Members: ${message.guild.members.cache.filter(m => m.presence.status === "dnd" || m.presence.status === "idle" || m.presence.status === "online" && !m.user.bot).size}**`)
                                                 .setFooter("Advanced Broadcast by Amir.#0001")
 
                                             mSure.edit(sendEmbed);
@@ -215,7 +215,7 @@ client.on("message", async message => {
                                                     .setAuthor(client.user.username, client.user.displayAvatarURL({ dynamic: true }))
                                                     .setColor(message.member.roles.highest.hexColor)
                                                     .setThumbnail(message.guild.iconURL({ dynamic: true }))
-                                                    .setDescription(`:white_check_mark: **| Sending... | All Members: ${message.guild.members.cache.filter(m => m.presence.status === "dnd" || m.presence.status === "idle" || m.presence.status === "online") && !m.user.bot}**`)
+                                                    .setDescription(`:white_check_mark: **| Sending... | All Members: ${message.guild.members.cache.filter(m => m.presence.status === "dnd" || m.presence.status === "idle" || m.presence.status === "online" && !m.user.bot).size}**`)
                                                     .setFooter("Advanced Broadcast by Amir.#0001")
 
                                                 mSure.edit(edddd);
