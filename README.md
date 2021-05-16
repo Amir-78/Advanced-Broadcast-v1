@@ -45,3 +45,5 @@ node main.js
 - -bc
 
 ![-bc](https://cdn.discordapp.com/attachments/645576197987631116/843295882089725972/Screenshot_1.png)
+
+##### Programmed by Amir.
