@@ -6,6 +6,10 @@ Discord Broadcast Bot (No ban).
 
 - This bot has been programmed to benefit the servers owners and I am not responsible for any wrong use of the bot.
 
+##### - You need to enable this in your bot from ( https://discord.com/developers/applications/ ):
+
+![bot](https://cdn.discordapp.com/attachments/645576197987631116/843558252888195082/unknown.png)
+
 ## Usage
 
 - #### Download the bot project:
