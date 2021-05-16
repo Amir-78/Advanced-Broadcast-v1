@@ -16,7 +16,7 @@ git clone https://github.com/Amir-78/Advanced-Broadcast-v1.git
 ```
 cd Advanced-Broadcast-v1
 ```
-- #### Install `discord.js` libary:
+- #### Install `discord.js` library:
 ```
 npm i discord.js
 ```
