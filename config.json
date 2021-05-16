@@ -1,0 +1,8 @@
+{
+
+"BOT_TOKEN": "Your_Bot_Token",
+"Prefix": "-",
+"Time": 5000,
+"owners": ["ID1","ID2"]
+
+}
