@@ -41,7 +41,7 @@ client.on("message", async message => {
                 .addField("Loading . . .", "Loading . . .")
                 .addField("Loading . . .", "Loading . . .")
                 .addField("Loading . . .", "**Loading . . .**")
-                .setFooter("Advanced Broadcast by Amir.#0001")
+                .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
             let embed = new Discord.MessageEmbed()
 
@@ -116,7 +116,7 @@ client.on("message", async message => {
                             .setColor(message.member.roles.highest.hexColor)
                             .setThumbnail(message.guild.iconURL({ dynamic: true }))
                             .setDescription(":white_check_mark:** | Write your message.**")
-                            .setFooter("Advanced Broadcast by Amir.#0001")
+                            .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                         m.edit(msgEmbed).then(() => {
 
@@ -134,7 +134,7 @@ client.on("message", async message => {
                                     .setColor(message.member.roles.highest.hexColor)
                                     .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                     .setDescription(msg.content)
-                                    .setFooter("Advanced Broadcast by Amir.#0001")
+                                    .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                 msg.delete({ timeout: 500 });
                                 m.delete({ timeout: 500 });
@@ -186,7 +186,7 @@ client.on("message", async message => {
                                                 .setColor(message.member.roles.highest.hexColor)
                                                 .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                 .setDescription(`:white_check_mark: **| Sending... | All Members: ${message.guild.members.cache.filter(m => m.presence.status === "dnd" || m.presence.status === "idle" || m.presence.status === "online" && !m.user.bot).size}**`)
-                                                .setFooter("Advanced Broadcast by Amir.#0001")
+                                                .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                             mSure.edit(sendEmbed);
 
@@ -216,7 +216,7 @@ client.on("message", async message => {
                                                     .setColor(message.member.roles.highest.hexColor)
                                                     .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                     .setDescription(`:white_check_mark: **| Sending... | All Members: ${message.guild.members.cache.filter(m => m.presence.status === "dnd" || m.presence.status === "idle" || m.presence.status === "online" && !m.user.bot).size}**`)
-                                                    .setFooter("Advanced Broadcast by Amir.#0001")
+                                                    .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                                 mSure.edit(edddd);
 
@@ -232,7 +232,7 @@ client.on("message", async message => {
                                                 .setColor(message.member.roles.highest.hexColor)
                                                 .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                 .setDescription(":x:** | Canceled.**")
-                                                .setFooter("Advanced Broadcast by Amir.#0001")
+                                                .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                             mSure.edit(cancelEmbed);
                                             mSure.reactions.removeAll();
@@ -245,7 +245,7 @@ client.on("message", async message => {
                                                 .setColor(message.member.roles.highest.hexColor)
                                                 .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                 .setDescription(":x:** | Reaction timeout.**")
-                                                .setFooter("Advanced Broadcast by Amir.#0001")
+                                                .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
 
                                             mSure.reactions.removeAll();
@@ -280,7 +280,7 @@ client.on("message", async message => {
                             .setColor(message.member.roles.highest.hexColor)
                             .setThumbnail(message.guild.iconURL({ dynamic: true }))
                             .setDescription(":white_check_mark:** | Write your message.**")
-                            .setFooter("Advanced Broadcast by Amir.#0001")
+                            .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                         m.edit(msgEmbed).then(() => {
 
@@ -296,7 +296,7 @@ client.on("message", async message => {
                                     .setColor(message.member.roles.highest.hexColor)
                                     .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                     .setDescription(msg.content)
-                                    .setFooter("Advanced Broadcast by Amir.#0001")
+                                    .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                 msg.delete({ timeout: 500 });
                                 m.delete({ timeout: 500 });
@@ -346,7 +346,7 @@ client.on("message", async message => {
                                                 .setColor(message.member.roles.highest.hexColor)
                                                 .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                 .setDescription(`:white_check_mark: **| Sending... | All Members: ${message.guild.members.cache.filter(m => !m.user.bot).size}**`)
-                                                .setFooter("Advanced Broadcast by Amir.#0001")
+                                                .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                             mSure.edit(sendEmbed);
 
@@ -377,7 +377,7 @@ client.on("message", async message => {
                                                     .setColor(message.member.roles.highest.hexColor)
                                                     .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                     .setDescription(`:white_check_mark: **| Sending... | All Members: ${message.guild.memberCount}**`)
-                                                    .setFooter("Advanced Broadcast by Amir.#0001")
+                                                    .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                                 mSure.edit(edddd);
 
@@ -393,7 +393,7 @@ client.on("message", async message => {
                                                 .setColor(message.member.roles.highest.hexColor)
                                                 .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                 .setDescription(":x:** | Canceled.**")
-                                                .setFooter("Advanced Broadcast by Amir.#0001")
+                                                .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                             mSure.reactions.removeAll();
                                             mSure.edit(cancelEmbed);
@@ -407,7 +407,7 @@ client.on("message", async message => {
                                                 .setColor(message.member.roles.highest.hexColor)
                                                 .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                 .setDescription(":x:** | Reaction timeout.**")
-                                                .setFooter("Advanced Broadcast by Amir.#0001")
+                                                .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                             mSure.reactions.removeAll();
                                             mSure.edit(timeoutEmbed);
@@ -453,7 +453,7 @@ client.on("message", async message => {
                                         .setColor(message.member.roles.highest.hexColor)
                                         .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                         .setDescription(":white_check_mark:** | Write your message.**")
-                                        .setFooter("Advanced Broadcast by Amir.#0001")
+                                        .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                     m.edit(msgEmbed).then(() => {
 
@@ -469,7 +469,7 @@ client.on("message", async message => {
                                                 .setColor(message.member.roles.highest.hexColor)
                                                 .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                 .setDescription(msg.content)
-                                                .setFooter("Advanced Broadcast by Amir.#0001")
+                                                .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                             msg.delete({ timeout: 500 });
                                             m.delete({ timeout: 500 });
@@ -519,7 +519,7 @@ client.on("message", async message => {
                                                             .setColor(message.member.roles.highest.hexColor)
                                                             .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                             .setDescription(`:white_check_mark: **| Sending... | All Members: ${message.guild.members.cache.filter(m => m.roles.cache.find(r => r.id === role.id) && !m.user.bot).size}**`)
-                                                            .setFooter("Advanced Broadcast by Amir.#0001")
+                                                            .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                                         mSure.edit(sendEmbed);
 
@@ -549,7 +549,7 @@ client.on("message", async message => {
                                                                 .setColor(message.member.roles.highest.hexColor)
                                                                 .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                                 .setDescription(`:white_check_mark: **| Sending... | All Members: ${message.guild.members.cache.filter(m => m.roles.cache.find(r => r.id === role.id) && !m.user.bot).size}**`)
-                                                                .setFooter("Advanced Broadcast by Amir.#0001")
+                                                                .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                                             mSure.edit(edddd);
 
@@ -565,7 +565,7 @@ client.on("message", async message => {
                                                             .setColor(message.member.roles.highest.hexColor)
                                                             .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                             .setDescription(":x:** | Canceled.**")
-                                                            .setFooter("Advanced Broadcast by Amir.#0001")
+                                                            .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                                         mSure.reactions.removeAll();
                                                         mSure.edit(cancelEmbed);
@@ -578,7 +578,7 @@ client.on("message", async message => {
                                                             .setColor(message.member.roles.highest.hexColor)
                                                             .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                                             .setDescription(":x:** | Reaction timeout.**")
-                                                            .setFooter("Advanced Broadcast by Amir.#0001")
+                                                            .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                                                         mSure.reactions.removeAll();
                                                         mSure.edit(timeoutEmbed);
@@ -620,7 +620,7 @@ client.on("message", async message => {
                             .setColor(message.member.roles.highest.hexColor)
                             .setThumbnail(message.guild.iconURL({ dynamic: true }))
                             .setDescription(":x:** | Reaction timeout**")
-                            .setFooter("Advanced Broadcast by Amir.#0001")
+                            .setFooter("Advanced Broadcast by !           𝙈𝙀𝙍𝙊         ♫#5769")
 
                         m.reactions.removeAll();
                         m.edit(timeoutEmbed);
